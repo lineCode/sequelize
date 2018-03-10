@@ -79,8 +79,14 @@ jobs:
         project: ./esdoc/
         domain: docs.sequelizejs.com
         skip_cleanup: true
+    - stage: next
+      node_js: '8'
+      script:
+        - npm run semantic-release
 
 stages:
   - test
   - name: release
     if: branch = master AND type = push AND fork = false
+  - name: next
+    if: branch = v5 AND type = push AND fork = false
