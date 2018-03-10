@@ -1,7 +1,7 @@
 {
   "name": "sequelize",
   "description": "Multi dialect ORM for Node.JS",
-  "version": "5.0.0",
+  "version": "0.0.0-development",
   "author": "Sascha Depold <sascha@depold.com>",
   "contributors": [
     "Sascha Depold <sascha@depold.com>",
@@ -37,7 +37,6 @@
     "wkx": "^0.4.1"
   },
   "devDependencies": {
-    "@semantic-release/git": "^4.0.1",
     "@semantic-release/github": "^4.2.6",
     "@semantic-release/npm": "^3.2.2",
     "chai": "^4.1.2",
