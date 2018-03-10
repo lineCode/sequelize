@@ -6,5 +6,10 @@ verifyConditions:
 
 publish:
   - "@semantic-release/npm"
-  - "@semantic-release/git"
   - "@semantic-release/github"
+
+prepare:
+  - "@semantic-release/npm"
+  - "@semantic-release/git"
+
+branch: "v5"
